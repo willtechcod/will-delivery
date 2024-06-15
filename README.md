@@ -9,7 +9,7 @@ Uma pequena landing Page que simula um cardápio digital.
 
 # 🔗 Acesse o site com o link abaixo.
 
-- [Cardápio Digital - Will Delivery](https:///)
+- [Cardápio Digital - Will Delivery](https://willtechcod.github.io/will-delivery/)
 
 ## :computer: Tecnologias utilizadas
 
