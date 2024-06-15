@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('header.css');
+@import url('home.css');
+@import url('menu.css');
+@import url('testimonials.css');
+@import url('footer.css');
+
+:root {
+  --background: #fff9ea;
+  --color-primary: #ffe8b4;
+  --color-secundary: #ffe100;
+  --button-primary: #ffcb45;
+  --button-primary-hover: #f8d477;
+  --color-span: #e9a209;
+
+  --text-neutral: #FFF;
+  --text-color-primary: #1d1d1d;
+  --text-color-primary-link: #1d1d1dad;
+  --text-color-secondary: #434343;
+
+  --color-heart: #ff0101;
+  --color-heart-hover: #e32f2f;
+  --color-shadow: rgba(0, 0, 0, 0.1);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+}
+
+section {
+  padding: 28px 8%;
+}
+
+.btn-default {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--button-primary);
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-weight: 600;
+  box-shadow: 0px 0px 10px 2px var(--color-shadow);
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
+
+.btn-default:hover{
+  background-color: var(--button-primary-hover);
+}
+
+.social-media-buttons {
+  display: flex;
+  gap: 18px;
+}
+
+.social-media-buttons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 40px;
+  background-color: var(--text-neutral);
+  font-size: 1.25rem;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.1);
+  transition: box-shadow .3s ease;
+}
+
+.social-media-buttons .whatsapp{
+  color: #25D366;
+}
+.social-media-buttons .facebook{
+  color: #4267B2;
+}
+.social-media-buttons .instagram{
+  color: #C13584;
+}
+
+.social-media-buttons a:hover {
+  box-shadow: 0px 0px 12px 8px rgba(0,0,0,0.1);
+}
+
+.section-title {
+  color: var(--color-span);
+  font-size: 1.563rem;
+}
+
+.section-subtitle {
+  font-size: 2.1875rem;
+}
